@@ -1,0 +1,261 @@
+[
+  {
+    "id": "BRPXD63A",
+    "label": "Text",
+    "inputType": "input",
+    "icon": null,
+    "defaultConfigIds": [
+      "PK67CSH5",
+      "1B9IE0C1",
+      "XGJLNS62",
+      "PDC0CM3Z",
+      "N24TSXL2",
+      "ENZCOI4B",
+      "DKNR4T2M"
+    ],
+    "allowedVionIds": [
+      "OR4HX9GB",
+      "GAXWELL4",
+      "WLI1285Q",
+      "GJR47MA7",
+      "D9MV38HD",
+      "WWCLMZ2W",
+      "S6IR77NA",
+      "LAZXFRK5"
+    ]
+  },
+  {
+    "id": "23J0UHQ3",
+    "label": "Email",
+    "inputType": "input",
+    "icon": null,
+    "defaultConfigIds": [
+      "PK67CSH5",
+      "PDC0CM3Z",
+      "N24TSXL2",
+      "ENZCOI4B",
+      "DKNR4T2M"
+    ],
+    "allowedVionIds": [
+      "OR4HX9GB",
+      "I6I0ORPN"
+    ]
+  },
+  {
+    "id": "VVEOT6L7",
+    "label": "Number",
+    "inputType": "input",
+    "icon": null,
+    "defaultConfigIds": [
+      "PK67CSH5",
+      "PDC0CM3Z",
+      "N24TSXL2",
+      "ENZCOI4B",
+      "DKNR4T2M"
+    ],
+    "allowedVionIds": [
+      "OR4HX9GB",
+      "WWCLMZ2W"
+    ]
+  },
+  {
+    "id": "RXYIPLHI",
+    "label": "Phone",
+    "inputType": "input",
+    "icon": null,
+    "defaultConfigIds": [
+      "PK67CSH5",
+      "PDC0CM3Z",
+      "N24TSXL2",
+      "ENZCOI4B",
+      "DKNR4T2M"
+    ],
+    "allowedVionIds": [
+      "OR4HX9GB",
+      "1CD4UHOE",
+      "JEWQQSY1"
+    ]
+  },
+  {
+    "id": "3TQXI26I",
+    "label": "Button",
+    "inputType": "button",
+    "icon": "icon-button",
+    "defaultConfigIds": [
+      "PK67CSH5",
+      "PDC0CM3Z",
+      "N24TSXL2",
+      "ENZCOI4B",
+      "DKNR4T2M",
+      "4GVN7A9D",
+      "T3I1RWET"
+    ],
+    "allowedVionIds": []
+  },
+  {
+    "id": "Z34BXBAK",
+    "label": "Select",
+    "inputType": "select",
+    "icon": null,
+    "defaultConfigIds": [
+      "IITIESBO",
+      "DCBLX7NE",
+      "LZQ81IND",
+      "U8JIYGAY",
+      "N24TSXL2",
+      "ENZCOI4B",
+      "DKNR4T2M"
+    ],
+    "allowedVionIds": [
+      "OR4HX9GB",
+      "V2CXTW7S"
+    ]
+  },
+  {
+    "id": "V1RYQ017",
+    "label": "Radio",
+    "inputType": "radio",
+    "icon": null,
+    "defaultConfigIds": [
+      "IITIESBO",
+      "U8JIYGAY",
+      "N24TSXL2",
+      "ENZCOI4B",
+      "DKNR4T2M"
+    ],
+    "allowedVionIds": [
+      "OR4HX9GB",
+      "V2CXTW7S"
+    ]
+  },
+  {
+    "id": "Z9P0U8E5",
+    "label": "Checkbox",
+    "inputType": "checkbox",
+    "icon": null,
+    "defaultConfigIds": [
+      "IITIESBO",
+      "DCBLX7NE",
+      "U8JIYGAY",
+      "N24TSXL2",
+      "ENZCOI4B",
+      "DKNR4T2M"
+    ],
+    "allowedVionIds": [
+      "OR4HX9GB"
+    ]
+  },
+  {
+    "id": "PZOODH24",
+    "label": "Textarea",
+    "inputType": "text",
+    "icon": null,
+    "defaultConfigIds": [
+      "PK67CSH5",
+      "1B9IE0C1",
+      "XGJLNS62",
+      "PDC0CM3Z",
+      "N24TSXL2",
+      "ENZCOI4B",
+      "DKNR4T2M"
+    ],
+    "allowedVionIds": [
+      "OR4HX9GB",
+      "LAZXFRK5"
+    ]
+  },
+  {
+    "id": "BR3A6A8H",
+    "label": "Password",
+    "inputType": "input",
+    "icon": null,
+    "defaultConfigIds": [
+      "PK67CSH5",
+      "PDC0CM3Z",
+      "N24TSXL2",
+      "ENZCOI4B",
+      "DKNR4T2M"
+    ],
+    "allowedVionIds": [
+      "OR4HX9GB",
+      "EH5QRRFU",
+      "YJ449E2L"
+    ]
+  },
+  {
+    "id": "XFS1GMN0",
+    "label": "OTP",
+    "inputType": "otp-field",
+    "icon": "icon-otp",
+    "defaultConfigIds": [
+      "PK67CSH5",
+      "PDC0CM3Z",
+      "N24TSXL2",
+      "ENZCOI4B",
+      "DKNR4T2M"
+    ],
+    "allowedVionIds": [
+      "OR4HX9GB",
+      "EH5QRRFU",
+      "YJ449E2L"
+    ]
+  },
+  {
+    "id": "3LBWIK0K",
+    "label": "Carousal",
+    "inputType": "carousal",
+    "icon": "icon-carousal",
+    "defaultConfigIds": ["DKNR4T2M","N24TSXL2", "IITIESBO", "VU5ZAMSV", "6M8LXU0F","R8MDZA8C"],
+    "allowedVionIds": null
+  },
+  {
+    "id": "1BA822G1",
+    "label": "Image",
+    "inputType": "image",
+    "icon": "icon-image",
+    "defaultConfigIds": ["DKNR4T2M","N24TSXL2"],
+    "allowedVionIds": null
+  },
+  {
+    "id": "UWA5Y02Y",
+    "label": "Link",
+    "inputType": "link",
+    "icon": "icon-link",
+    "defaultConfigIds": ["DKNR4T2M","4GVN7A9D","T3I1RWET", "N24TSXL2"],
+    "allowedVionIds": []
+  },
+  {
+    "id": "11E8S9X4",
+    "label": "Icon Button",
+    "inputType": "icon-button",
+    "icon": "icon-button",
+    "defaultConfigIds": ["DKNR4T2M","4GVN7A9D","T3I1RWET", "N24TSXL2"],
+    "allowedVionIds": null
+  },
+  {
+    "id": "G8G33NVF",
+    "label": "Horizontal Scroll",
+    "inputType": "horizontal-scroll",
+    "icon": "horizontal-scroll",
+    "defaultConfigIds": [
+      "DKNR4T2M",
+      "N24TSXL2",
+      "U8JIYGAY",
+      "L545YMZB"
+    ],
+    "allowedVionIds": null
+  },
+  {
+    "id": "OPWVJQ0I",
+    "label": "Bottom Navigation",
+    "inputType": "bottom-navigation",
+    "icon": "bottom-navigation",
+    "defaultConfigIds": [
+      "DKNR4T2M",
+      "N24TSXL2",
+      "U8JIYGAY",
+      "L545YMZB"
+    ],
+    "allowedVionIds": null
+  }
+]

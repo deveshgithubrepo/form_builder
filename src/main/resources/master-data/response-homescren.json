@@ -1,0 +1,509 @@
+{
+  "id": "HOMESCR1",
+  "name": "Home Screen Form",
+  "description": "cards of the home screen after registration",
+  "theme": null,
+  "matrix": [
+    {
+      "row": 1,
+      "columns": [
+        {
+          "col": 1,
+          "width": 12,
+          "key": null,
+          "field": {
+            "id": "VKDA7EV9",
+            "fieldType": {
+              "id": "3LBWIK0K",
+              "label": "Carousal",
+              "inputType": "carousal",
+              "icon": "icon-carousal"
+            },
+            "label": "Home Screen Card 1 Carousal",
+            "configs": [
+              {
+                "id": "DKNR4T2M",
+                "name": "fld_cfg_ui_order",
+                "value": 1
+              },
+              {
+                "id": "N24TSXL2",
+                "name": "fld_cfg_ui_icon",
+                "value": true
+              },
+              {
+                "id": "IITIESBO",
+                "name": "fld_cfg_options",
+                "value": [
+                  "Image1",
+                  "Image2",
+                  "Image3"
+                ]
+              }
+            ],
+            "validations": [],
+            "conditionalLogics": []
+          }
+        }
+      ],
+      "cardId": "CARD1"
+    },
+    {
+      "row": 2,
+      "columns": [
+        {
+          "col": 1,
+          "width": 6,
+          "key": null,
+          "field": {
+            "id": "K2192DIV",
+            "fieldType": {
+              "id": "PZOODH24",
+              "label": "Textarea",
+              "inputType": "textarea",
+              "icon": null
+            },
+            "label": "Title",
+            "configs": [
+              {
+                "id": "PK67CSH5",
+                "name": "fld_cfg_placeholder",
+                "value": "Indian Week Energy"
+              },
+              {
+                "id": "ENZCOI4B",
+                "name": "fld_cfg_ui_group",
+                "value": "icon-title"
+              },
+              {
+                "id": "N24TSXL2",
+                "name": "fld_cfg_ui_icon",
+                "value": true
+              },
+              {
+                "id": "DKNR4T2M",
+                "name": "fld_cfg_ui_order",
+                "value": 2
+              }
+            ],
+            "validations": [],
+            "conditionalLogics": []
+          }
+        },
+        {
+          "col": 2,
+          "width": 6,
+          "key": null,
+          "field": {
+            "id": "DIC98KZV",
+            "fieldType": {
+              "id": "3TQXI26I",
+              "label": "Button",
+              "inputType": "button",
+              "icon": "icon-button"
+            },
+            "label": "View Directions",
+            "configs": [
+              {
+                "id": "ENZCOI4B",
+                "name": "fld_cfg_ui_group",
+                "value": "icon-directions"
+              },
+              {
+                "id": "DKNR4T2M",
+                "name": "fld_cfg_ui_order",
+                "value": "3"
+              },
+              {
+                "id": "N24TSXL2",
+                "name": "fld_cfg_ui_icon",
+                "value": true
+              },
+              {
+                "id": "4GVN7A9D",
+                "name": "fld_cfg_button_style",
+                "value": "primary"
+              },
+              {
+                "id": "T3I1RWET",
+                "name": "fld_cfg_action",
+                "value": "view_directions"
+              }
+            ],
+            "validations": [],
+            "conditionalLogics": []
+          }
+        }
+      ],
+      "cardId": "CARD1"
+    },
+    {
+      "row": 3,
+      "columns": [
+        {
+          "col": 1,
+          "width": 12,
+          "key": null,
+          "field": {
+            "id": "I403UHLH",
+            "fieldType": {
+              "id": "PZOODH24",
+              "label": "Textarea",
+              "inputType": "textarea",
+              "icon": null
+            },
+            "label": "Date",
+            "configs": [
+              {
+                "id": "PK67CSH5",
+                "name": "fld_cfg_placeholder",
+                "value": "27 January 2025 - 30 January 2025"
+              },
+              {
+                "id": "ENZCOI4B",
+                "name": "fld_cfg_ui_group",
+                "value": "icon-calender"
+              },
+              {
+                "id": "N24TSXL2",
+                "name": "fld_cfg_ui_icon",
+                "value": true
+              },
+              {
+                "id": "DKNR4T2M",
+                "name": "fld_cfg_ui_order",
+                "value": 4
+              }
+            ],
+            "validations": [],
+            "conditionalLogics": []
+          }
+        }
+      ],
+      "cardId": "CARD1"
+    },
+    {
+      "row": 4,
+      "columns": [
+        {
+          "col": 1,
+          "width": 12,
+          "key": null,
+          "field": {
+            "id": "V98PE0JY",
+            "fieldType": {
+              "id": "PZOODH24",
+              "label": "Textarea",
+              "inputType": "textarea",
+              "icon": null
+            },
+            "label": "Venue",
+            "configs": [
+              {
+                "id": "PK67CSH5",
+                "name": "fld_cfg_placeholder",
+                "value": "ONGC – Advanced Training Institute, Goa, India"
+              },
+              {
+                "id": "ENZCOI4B",
+                "name": "fld_cfg_ui_group",
+                "value": "icon-location"
+              },
+              {
+                "id": "N24TSXL2",
+                "name": "fld_cfg_ui_icon",
+                "value": true
+              },
+              {
+                "id": "DKNR4T2M",
+                "name": "fld_cfg_ui_order",
+                "value": 5
+              }
+            ],
+            "validations": [],
+            "conditionalLogics": []
+          }
+        }
+      ],
+      "cardId": "CARD1"
+    },
+    {
+      "row": 5,
+      "columns": [
+        {
+          "col": 1,
+          "width": 6,
+          "key": null,
+          "field": {
+            "id": "2RSYQ7Q6",
+            "fieldType": {
+              "id": "3TQXI26I",
+              "label": "Button",
+              "inputType": "button",
+              "icon": "icon-button"
+            },
+            "label": "My QR",
+            "configs": [
+              {
+                "id": "ENZCOI4B",
+                "name": "fld_cfg_ui_group",
+                "value": "icon-my-qr"
+              },
+              {
+                "id": "DKNR4T2M",
+                "name": "fld_cfg_ui_order",
+                "value": "6"
+              },
+              {
+                "id": "N24TSXL2",
+                "name": "fld_cfg_ui_icon",
+                "value": true
+              },
+              {
+                "id": "4GVN7A9D",
+                "name": "fld_cfg_button_style",
+                "value": "primary"
+              },
+              {
+                "id": "T3I1RWET",
+                "name": "fld_cfg_action",
+                "value": "my_qr"
+              }
+            ],
+            "validations": [],
+            "conditionalLogics": []
+          }
+        },
+        {
+          "col": 2,
+          "width": 6,
+          "key": null,
+          "field": {
+            "id": "JU2QCWJR",
+            "fieldType": {
+              "id": "3TQXI26I",
+              "label": "Button",
+              "inputType": "button",
+              "icon": "icon-button"
+            },
+            "label": "Scan QR",
+            "configs": [
+              {
+                "id": "ENZCOI4B",
+                "name": "fld_cfg_ui_group",
+                "value": "icon-scan-qr"
+              },
+              {
+                "id": "DKNR4T2M",
+                "name": "fld_cfg_ui_order",
+                "value": "7"
+              },
+              {
+                "id": "N24TSXL2",
+                "name": "fld_cfg_ui_icon",
+                "value": true
+              },
+              {
+                "id": "4GVN7A9D",
+                "name": "fld_cfg_button_style",
+                "value": "primary"
+              },
+              {
+                "id": "T3I1RWET",
+                "name": "fld_cfg_action",
+                "value": "scan_qr"
+              }
+            ],
+            "validations": [],
+            "conditionalLogics": []
+          }
+        }
+      ],
+      "cardId": null
+    },
+    {
+      "row": 6,
+      "columns": [
+        {
+          "col": 1,
+          "width": 3,
+          "key": null,
+          "field": {
+            "id": "QUWZYJ1W",
+            "fieldType": {
+              "id": "3TQXI26I",
+              "label": "Button",
+              "inputType": "button",
+              "icon": "icon-button"
+            },
+            "label": "My Calendar",
+            "configs": [
+              {
+                "id": "ENZCOI4B",
+                "name": "fld_cfg_ui_group",
+                "value": "icon-my-calendar"
+              },
+              {
+                "id": "DKNR4T2M",
+                "name": "fld_cfg_ui_order",
+                "value": "8"
+              },
+              {
+                "id": "N24TSXL2",
+                "name": "fld_cfg_ui_icon",
+                "value": true
+              },
+              {
+                "id": "4GVN7A9D",
+                "name": "fld_cfg_button_style",
+                "value": "primary"
+              },
+              {
+                "id": "T3I1RWET",
+                "name": "fld_cfg_action",
+                "value": "my_calendar"
+              }
+            ],
+            "validations": [],
+            "conditionalLogics": []
+          }
+        },
+        {
+          "col": 2,
+          "width": 3,
+          "key": null,
+          "field": {
+            "id": "HJLMB7UZ",
+            "fieldType": {
+              "id": "3TQXI26I",
+              "label": "Button",
+              "inputType": "button",
+              "icon": "icon-button"
+            },
+            "label": "My Meetings",
+            "configs": [
+              {
+                "id": "ENZCOI4B",
+                "name": "fld_cfg_ui_group",
+                "value": "icon-my-meetings"
+              },
+              {
+                "id": "DKNR4T2M",
+                "name": "fld_cfg_ui_order",
+                "value": "9"
+              },
+              {
+                "id": "N24TSXL2",
+                "name": "fld_cfg_ui_icon",
+                "value": true
+              },
+              {
+                "id": "4GVN7A9D",
+                "name": "fld_cfg_button_style",
+                "value": "primary"
+              },
+              {
+                "id": "T3I1RWET",
+                "name": "fld_cfg_action",
+                "value": "my_meetings"
+              }
+            ],
+            "validations": [],
+            "conditionalLogics": []
+          }
+        },
+        {
+          "col": 3,
+          "width": 3,
+          "key": null,
+          "field": {
+            "id": "9X8TADLZ",
+            "fieldType": {
+              "id": "3TQXI26I",
+              "label": "Button",
+              "inputType": "button",
+              "icon": "icon-button"
+            },
+            "label": "Gellery",
+            "configs": [
+              {
+                "id": "ENZCOI4B",
+                "name": "fld_cfg_ui_group",
+                "value": "icon-gallery"
+              },
+              {
+                "id": "DKNR4T2M",
+                "name": "fld_cfg_ui_order",
+                "value": "10"
+              },
+              {
+                "id": "N24TSXL2",
+                "name": "fld_cfg_ui_icon",
+                "value": true
+              },
+              {
+                "id": "4GVN7A9D",
+                "name": "fld_cfg_button_style",
+                "value": "primary"
+              },
+              {
+                "id": "T3I1RWET",
+                "name": "fld_cfg_action",
+                "value": "gallery"
+              }
+            ],
+            "validations": [],
+            "conditionalLogics": []
+          }
+        },
+        {
+          "col": 4,
+          "width": 3,
+          "key": null,
+          "field": {
+            "id": "9X8TADLZ",
+            "fieldType": {
+              "id": "3TQXI26I",
+              "label": "Button",
+              "inputType": "button",
+              "icon": "icon-button"
+            },
+            "label": "Gellery",
+            "configs": [
+              {
+                "id": "ENZCOI4B",
+                "name": "fld_cfg_ui_group",
+                "value": "icon-gallery"
+              },
+              {
+                "id": "DKNR4T2M",
+                "name": "fld_cfg_ui_order",
+                "value": "10"
+              },
+              {
+                "id": "N24TSXL2",
+                "name": "fld_cfg_ui_icon",
+                "value": true
+              },
+              {
+                "id": "4GVN7A9D",
+                "name": "fld_cfg_button_style",
+                "value": "primary"
+              },
+              {
+                "id": "T3I1RWET",
+                "name": "fld_cfg_action",
+                "value": "gallery"
+              }
+            ],
+            "validations": [],
+            "conditionalLogics": []
+          }
+        }
+      ],
+      "cardId": "CARD2"
+    }
+  ],
+  "createdAt": "2025-09-02T15:13:02.389Z",
+  "createdBy": "SYSTEM"
+}

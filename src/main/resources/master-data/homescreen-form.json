@@ -1,0 +1,222 @@
+{
+  "id": "HOMESCR1",
+  "name": "Home Screen Form",
+  "description": "cards of the home screen after registration",
+  "matrix": [
+    {
+      "row": 1,
+      "cardId": "CARD1",
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "VKDA7EV9",
+          "width": 12
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "cardId": "CARD1",
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "K2192DIV",
+          "width": 6
+        },
+        {
+          "col": 2,
+          "fieldInstanceId": "DIC98KZV",
+          "width": 6
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "cardId": "CARD1",
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "I403UHLH",
+          "width": 12
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "cardId": "CARD1",
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "V98PE0JY",
+          "width": 12
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "2RSYQ7Q6",
+          "width": 6
+        },
+        {
+          "col": 2,
+          "fieldInstanceId": "JU2QCWJR",
+          "width": 6
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "cardId": "CARD2",
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "QUWZYJ1W",
+          "width": 3
+        },
+        {
+          "col": 2,
+          "fieldInstanceId": "HJLMB7UZ",
+          "width": 3
+        },
+        {
+          "col": 3,
+          "fieldInstanceId": "9X8TADLZ",
+          "width": 3
+        },
+        {
+          "col": 4,
+          "fieldInstanceId": "9X8TADLZ",
+          "width": 3
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "cardId": "CARD3",
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "6E8HC6X5",
+          "width": 6
+        },
+        {
+          "col": 2,
+          "fieldInstanceId": "KM4Z4JS1",
+          "width": 6
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "cardId": "CARD3",
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "9M2XZN8H",
+          "width": 12
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "cardId": "CARD4",
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "BLHFM0EP",
+          "width": 6
+        },
+        {
+          "col": 2,
+          "fieldInstanceId": "L1TBCHWA",
+          "width": 6
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "cardId": "CARD4",
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "0B62YPP5",
+          "width": 12
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "cardId": "CARD5",
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "K0IGP94S",
+          "width": 6
+        },
+        {
+          "col": 2,
+          "fieldInstanceId": "9DBT284R",
+          "width": 6
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "cardId": "CARD5",
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "7GWKJYN9",
+          "width": 12
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "cardId": "CARD5",
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "F70AS35A",
+          "width": 12
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "cardId": "CARD5",
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "LIVU6VM6",
+          "width": 12
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "cardId": "CARD5",
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "EWX6R3NJ",
+          "width": 12
+        }
+      ]
+    },
+    {
+      "row": 16,
+      "cardId": "CARD6",
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "GJLB30GN",
+          "width": 12
+        }
+      ]
+    }
+  ]
+}

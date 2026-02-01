@@ -1,0 +1,719 @@
+[
+  {
+    "id": "JGF54NGU",
+    "formId": "SIGNIN01",
+    "fieldTypeId": "V1RYQ017",
+    "label": "Select Login Method",
+    "configIds": [
+      "U8JIYGAY",
+      "IITIESBO",
+      "PDC0CM3Z",
+      "DKNR4T2M"
+    ],
+    "validationRuleIds": [
+      "OR4HX9GB"
+    ],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "U8JIYGAY": "vertical",
+      "IITIESBO": [
+        "Phone",
+        "Email"
+      ],
+      "DKNR4T2M": 1,
+      "PDC0CM3Z": ["Phone"]
+    }
+  },
+  {
+    "id": "VHPLZNPW",
+    "formId": "SIGNIN01",
+    "fieldTypeId": "RXYIPLHI",
+    "label": "Enter Phone",
+    "configIds": [
+      "PK67CSH5",
+      "ENZCOI4B",
+      "N24TSXL2",
+      "DKNR4T2M"
+    ],
+    "validationRuleIds": [
+      "OR4HX9GB",
+      "1CD4UHOE",
+      "JEWQQSY1"
+    ],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "PK67CSH5": "Enter 10-digit phone number",
+      "ENZCOI4B": "icon-phone",
+      "N24TSXL2": true,
+      "DKNR4T2M": 2
+    }
+  },
+  {
+    "id": "VHPLNM12",
+    "formId": "SIGNIN01",
+    "fieldTypeId": "23J0UHQ3",
+    "label": "Enter Email",
+    "configIds": [
+      "PK67CSH5",
+      "ENZCOI4B",
+      "N24TSXL2",
+      "DKNR4T2M"
+    ],
+    "validationRuleIds": [
+      "OR4HX9GB",
+      "I6I0ORPN"
+    ],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "PK67CSH5": "Enter your email address",
+      "ENZCOI4B": "icon-email",
+      "N24TSXL2": true,
+      "DKNR4T2M": 3
+    }
+  },
+  {
+    "id": "YA10TYNO",
+    "formId": "SIGNIN01",
+    "fieldTypeId": "3TQXI26I",
+    "label": "Get OTP",
+    "configIds": [
+      "ENZCOI4B",
+      "DKNR4T2M",
+      "N24TSXL2",
+      "4GVN7A9D",
+      "T3I1RWET"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "ENZCOI4B": "icon-button",
+      "DKNR4T2M": 4,
+      "N24TSXL2": true,
+      "4GVN7A9D": "primary",
+      "T3I1RWET": "send_otp"
+    }
+  },
+
+  {
+    "id": "RV92LJZN",
+    "formId": "VEROTP01",
+    "fieldTypeId": "XFS1GMN0",
+    "label": "Enter OTP",
+    "configIds": [
+      "PK67CSH5",
+      "8UKW1KFM",
+      "N24TSXL2",
+      "DKNR4T2M"
+    ],
+    "validationRuleIds": [
+      "OR4HX9GB",
+      "1CD4UHOE",
+      "JEWQQSY1"
+    ],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "PK67CSH5": "Enter OTP",
+      "8UKW1KFM": "4",
+      "N24TSXL2": true,
+      "DKNR4T2M": 1
+    }
+  },
+  {
+    "id": "GEH7QH3J",
+    "formId": "VEROTP01",
+    "fieldTypeId": "3TQXI26I",
+    "label": "Verify OTP",
+    "configIds": [
+      "ENZCOI4B",
+      "DKNR4T2M",
+      "N24TSXL2",
+      "4GVN7A9D",
+      "T3I1RWET"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "ENZCOI4B": "icon-button",
+      "DKNR4T2M": 2,
+      "N24TSXL2": true,
+      "4GVN7A9D": "primary",
+      "T3I1RWET": "verify_otp"
+    }
+  },
+  {
+    "id": "VKDA7EV9",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "3LBWIK0K",
+    "label": "Home Screen Card 1 Carousal",
+    "configIds": [
+      "DKNR4T2M","N24TSXL2", "IITIESBO", "VU5ZAMSV", "6M8LXU0F", "R8MDZA8C"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "DKNR4T2M": 1,
+      "N24TSXL2": true,
+      "IITIESBO": ["https://currentaffairs.adda247.com/wp-content/uploads/multisite/sites/5/2024/02/05122024/India-Energy-Week-2024-1.jpg", "https://www.knnindia.co.in/uploads/newsfiles/IEW-25-1-2025.jpg", "https://cablecommunity.com/wp-content/uploads/2024/02/Indian-Energy-Week-2024-1.webp"]
+    }
+  },
+  {
+    "id": "K2192DIV",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "PZOODH24",
+    "label": "Title",
+    "configIds": [
+      "PK67CSH5",
+      "N24TSXL2",
+      "DKNR4T2M",
+      "CJ1C8JWH"
+    ],
+    "validationRuleIds": [
+    ],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "DKNR4T2M": 2,
+      "PK67CSH5": "Indian Week Energy",
+      "N24TSXL2": false,
+      "CJ1C8JWH": "titleMedium"
+    }
+  },
+  {
+    "id": "DIC98KZV",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "UWA5Y02Y",
+    "label": "View Directions Link Button",
+    "configIds": [
+      "ENZCOI4B",
+      "DKNR4T2M",
+      "N24TSXL2",
+      "4GVN7A9D",
+      "T3I1RWET",
+      "PK67CSH5"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "ENZCOI4B": "icon-directions",
+      "DKNR4T2M": 3,
+      "N24TSXL2": true,
+      "4GVN7A9D": "primary",
+      "T3I1RWET": "view_directions",
+      "PK67CSH5": "View Directions"
+    }
+  },
+  {
+    "id": "I403UHLH",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "PZOODH24",
+    "label": "Date",
+    "configIds": [
+      "PK67CSH5",
+      "ENZCOI4B",
+      "N24TSXL2",
+      "DKNR4T2M"
+    ],
+    "validationRuleIds": [
+    ],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "DKNR4T2M": 4,
+      "PK67CSH5": "27 January 2025 - 30 January 2025",
+      "ENZCOI4B": "icon-calender",
+      "N24TSXL2": true
+    }
+  },
+  {
+    "id": "V98PE0JY",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "PZOODH24",
+    "label": "Venue",
+    "configIds": [
+      "PK67CSH5",
+      "ENZCOI4B",
+      "N24TSXL2",
+      "DKNR4T2M",
+      "CJ1C8JWH"
+    ],
+    "validationRuleIds": [
+    ],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "DKNR4T2M": 5,
+      "PK67CSH5": "ONGC – Advanced Training Institute, Goa, India",
+      "ENZCOI4B": "icon-location",
+      "N24TSXL2": true,
+      "CJ1C8JWH": "titleMedium"
+    }
+  },
+  {
+    "id": "2RSYQ7Q6",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "3TQXI26I",
+    "label": "My QR",
+    "configIds": [
+      "ENZCOI4B",
+      "DKNR4T2M",
+      "N24TSXL2",
+      "4GVN7A9D",
+      "T3I1RWET"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "ENZCOI4B": "icon-my-qr",
+      "DKNR4T2M": 6,
+      "N24TSXL2": true,
+      "4GVN7A9D": "primary",
+      "T3I1RWET": "my_qr"
+    }
+  },
+  {
+    "id": "JU2QCWJR",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "3TQXI26I",
+    "label": "Scan QR",
+    "configIds": [
+      "ENZCOI4B",
+      "DKNR4T2M",
+      "N24TSXL2",
+      "4GVN7A9D",
+      "T3I1RWET"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "ENZCOI4B": "icon-scan-qr",
+      "DKNR4T2M": 7,
+      "N24TSXL2": true,
+      "4GVN7A9D": "primary",
+      "T3I1RWET": "scan_qr"
+    }
+  },
+  {
+    "id": "QUWZYJ1W",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "3TQXI26I",
+    "label": "My Calendar",
+    "configIds": [
+      "ENZCOI4B",
+      "DKNR4T2M",
+      "N24TSXL2",
+      "4GVN7A9D",
+      "T3I1RWET",
+      "PK67CSH5"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "ENZCOI4B": "icon-my-calendar",
+      "DKNR4T2M": 8,
+      "N24TSXL2": true,
+      "4GVN7A9D": "icon-button",
+      "T3I1RWET": "my_calendar",
+      "PK67CSH5": "My Calendar"
+    }
+  },
+  {
+    "id": "HJLMB7UZ",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "3TQXI26I",
+    "label": "My Meetings",
+    "configIds": [
+      "ENZCOI4B",
+      "DKNR4T2M",
+      "N24TSXL2",
+      "4GVN7A9D",
+      "T3I1RWET",
+      "PK67CSH5"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "ENZCOI4B": "icon-my-meetings",
+      "DKNR4T2M": 9,
+      "N24TSXL2": true,
+      "4GVN7A9D": "icon-button",
+      "T3I1RWET": "my_meetings",
+      "PK67CSH5": "My Meetings"
+    }
+  },
+  {
+    "id": "9X8TADLZ",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "3TQXI26I",
+    "label": "Gellery",
+    "configIds": [
+      "ENZCOI4B",
+      "DKNR4T2M",
+      "N24TSXL2",
+      "4GVN7A9D",
+      "T3I1RWET",
+      "PK67CSH5"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "ENZCOI4B": "icon-gallery",
+      "DKNR4T2M": 10,
+      "N24TSXL2": true,
+      "4GVN7A9D": "icon-button",
+      "T3I1RWET": "gallery",
+      "PK67CSH5": "Gellery"
+    }
+  },
+  {
+    "id": "DYIZFDFF",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "3TQXI26I",
+    "label": "Venue Map",
+    "configIds": [
+      "ENZCOI4B",
+      "DKNR4T2M",
+      "N24TSXL2",
+      "4GVN7A9D",
+      "T3I1RWET",
+      "PK67CSH5"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "ENZCOI4B": "icon-venue-map",
+      "DKNR4T2M": 11,
+      "N24TSXL2": true,
+      "4GVN7A9D": "icon-button",
+      "T3I1RWET": "venue_map",
+      "PK67CSH5": "Venue Map"
+    }
+  },
+  {
+    "id": "6E8HC6X5",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "PZOODH24",
+    "label": "Card 3 About Event Title",
+    "configIds": [
+      "PK67CSH5",
+      "N24TSXL2",
+      "DKNR4T2M",
+      "CJ1C8JWH"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "DKNR4T2M": 12,
+      "PK67CSH5": "About Event",
+      "N24TSXL2": true,
+      "CJ1C8JWH": "titleMedium"
+    }
+  },
+  {
+    "id": "KM4Z4JS1",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "UWA5Y02Y",
+    "label": "Know More",
+    "configIds": [
+      "DKNR4T2M",
+      "N24TSXL2",
+      "T3I1RWET",
+      "PK67CSH5",
+      "ENZCOI4B"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "DKNR4T2M": 13,
+      "N24TSXL2": true,
+      "T3I1RWET": "know_more",
+      "PK67CSH5": "Know More",
+      "ENZCOI4B": "icon-arrow"
+    }
+  },
+  {
+    "id": "9M2XZN8H",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "PZOODH24",
+    "label": "Card 3 About Event Description",
+    "configIds": [
+      "PK67CSH5",
+      "N24TSXL2",
+      "DKNR4T2M",
+      "CJ1C8JWH"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "DKNR4T2M": 14,
+      "PK67CSH5": "The fourth edition of India Energy Week will take place in Goa from January 27 to 30, 2026. The exhibition and the conference will be held at ONGC-Advanced Training Institute The event is organised by the Federation of Indian Petroleum Industry (FIPI) and dmg events, with the patronage of India'...",
+      "N24TSXL2": true,
+      "CJ1C8JWH": "bodyMedium"
+    }
+  },
+  {
+    "id": "BLHFM0EP",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "PZOODH24",
+    "label": "Card 4 Speakers Title",
+    "configIds": [
+      "PK67CSH5",
+      "N24TSXL2",
+      "DKNR4T2M",
+      "CJ1C8JWH"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "DKNR4T2M": 15,
+      "PK67CSH5": "Speakers",
+      "N24TSXL2": true,
+      "CJ1C8JWH": "titleMedium"
+    }
+  },
+  {
+    "id": "L1TBCHWA",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "UWA5Y02Y",
+    "label": "See All",
+    "configIds": [
+      "DKNR4T2M",
+      "N24TSXL2",
+      "T3I1RWET",
+      "PK67CSH5",
+      "ENZCOI4B"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "DKNR4T2M": 16,
+      "N24TSXL2": true,
+      "T3I1RWET": "see_all",
+      "PK67CSH5": "See All",
+      "ENZCOI4B": "icon-arrow"
+    }
+  },
+  {
+    "id": "0B62YPP5",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "G8G33NVF",
+    "label": "Speakers Horizontal Scroll",
+    "configIds": [
+      "DKNR4T2M",
+      "N24TSXL2",
+      "U8JIYGAY",
+      "L545YMZB"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "DKNR4T2M": 17,
+      "N24TSXL2": true,
+      "U8JIYGAY": "vertical",
+      "L545YMZB": [
+        {
+          "image": "https://cdn3d.iconscout.com/3d/premium/thumb/man-3d-icon-png-download-7590876.png?f=webp",
+          "title": "Ajit Dharan",
+          "subtitle": "Head of Consumer Foods",
+          "action": "open_speaker:ajit"
+        },
+        {
+          "image": "https://cdn3d.iconscout.com/3d/premium/thumb/man-3d-icon-png-download-7590876.png?f=webp",
+          "title": "Cassio Simões",
+          "subtitle": "Managing Director",
+          "action": "open_speaker:cassio"
+        },
+        {
+          "image": "https://cdn3d.iconscout.com/3d/premium/thumb/man-3d-icon-png-download-7590876.png?f=webp",
+          "title": "Nitin Gupta",
+          "subtitle": "Founder",
+          "action": "open_speaker:nitin"
+        }
+      ]
+    }
+  },
+  {
+    "id": "K0IGP94S",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "PZOODH24",
+    "label": "Card 5 Indian Week Energy 2025 Partners Title",
+    "configIds": [
+      "PK67CSH5",
+      "N24TSXL2",
+      "DKNR4T2M",
+      "CJ1C8JWH"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "DKNR4T2M": 18,
+      "PK67CSH5": "Indian Week Energy 2025 Partners",
+      "N24TSXL2": true,
+      "CJ1C8JWH": "titleMedium"
+    }
+  },
+  {
+    "id": "9DBT284R",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "UWA5Y02Y",
+    "label": "Show All",
+    "configIds": [
+      "DKNR4T2M",
+      "N24TSXL2",
+      "T3I1RWET",
+      "PK67CSH5",
+      "ENZCOI4B"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "DKNR4T2M": 19,
+      "N24TSXL2": true,
+      "T3I1RWET": "show_all",
+      "PK67CSH5": "Show All",
+      "ENZCOI4B": "icon-arrow"
+    }
+  },
+  {
+    "id": "7GWKJYN9",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "3LBWIK0K",
+    "label": "Home Screen Card 5 Carousal 1",
+    "configIds": [
+      "DKNR4T2M",
+      "N24TSXL2",
+      "IITIESBO",
+      "VU5ZAMSV",
+      "6M8LXU0F",
+      "R8MDZA8C"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "DKNR4T2M": 20,
+      "N24TSXL2": true,
+      "IITIESBO": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNXWgl8-e34vMO_-q0FSMANbT0OhXmKW5lrg&s"
+      ]
+    }
+  },
+  {
+    "id": "F70AS35A",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "3LBWIK0K",
+    "label": "Home Screen Card 5 Carousal 2",
+    "configIds": [
+      "DKNR4T2M",
+      "N24TSXL2",
+      "IITIESBO",
+      "VU5ZAMSV",
+      "6M8LXU0F",
+      "R8MDZA8C"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "DKNR4T2M": 21,
+      "N24TSXL2": true,
+      "IITIESBO": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxdWVR-XTmIxxILF_v2u7wz1Z_tLz8Rl2njw&s",
+        "https://img.etb2bimg.com/files/data_file_1738935023_28686.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9s4KNZW7SPWkQZf_wUslnruKko2dst43txw&s"
+      ]
+    }
+  },
+  {
+    "id": "LIVU6VM6",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "3LBWIK0K",
+    "label": "Home Screen Card 5 Carousal 3",
+    "configIds": [
+      "DKNR4T2M",
+      "N24TSXL2",
+      "IITIESBO",
+      "VU5ZAMSV",
+      "6M8LXU0F",
+      "R8MDZA8C"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "DKNR4T2M": 22,
+      "N24TSXL2": true,
+      "IITIESBO": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxdWVR-XTmIxxILF_v2u7wz1Z_tLz8Rl2njw&s",
+        "https://img.etb2bimg.com/files/data_file_1738935023_28686.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9s4KNZW7SPWkQZf_wUslnruKko2dst43txw&s"
+      ]
+    }
+  },
+  {
+    "id": "EWX6R3NJ",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "3LBWIK0K",
+    "label": "Home Screen Card 5 Carousal 4",
+    "configIds": [
+      "DKNR4T2M",
+      "N24TSXL2",
+      "IITIESBO",
+      "VU5ZAMSV",
+      "6M8LXU0F",
+      "R8MDZA8C"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "DKNR4T2M": 23,
+      "N24TSXL2": true,
+      "IITIESBO": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9s4KNZW7SPWkQZf_wUslnruKko2dst43txw&s"
+      ]
+    }
+  },
+  {
+    "id": "GJLB30GN",
+    "formId": "HOMESCR1",
+    "fieldTypeId": "OPWVJQ0I",
+    "label": "Home Bottom Navigation",
+    "configIds": [
+      "DKNR4T2M",
+      "N24TSXL2",
+      "U8JIYGAY",
+      "L545YMZB"
+    ],
+    "validationRuleIds": [],
+    "conditionalLogicIds": [],
+    "overrides": {
+      "DKNR4T2M": 17,
+      "N24TSXL2": true,
+      "U8JIYGAY": "vertical",
+      "L545YMZB": [
+        {
+          "image": "home.png",
+          "title": "Home",
+          "subtitle": "Home Button",
+          "action": "open_bottom_navigation:home"
+        },
+        {
+          "image": "agenda.png",
+          "title": "Agenda",
+          "subtitle": "Agenda Button",
+          "action": "open_bottom_navigation:agenda"
+        },
+        {
+          "image": "meetings.png",
+          "title": "Meetings",
+          "subtitle": "Meetings Button",
+          "action": "open_bottom_navigation:meetings"
+        },{
+          "image": "community.png",
+          "title": "Community",
+          "subtitle": "Community Button",
+          "action": "open_bottom_navigation:community"
+        },
+        {
+          "image": "exhibitors.png",
+          "title": "Exhibitors",
+          "subtitle": "Exhibitors Button",
+          "action": "open_bottom_navigation:exhibitors"
+        }
+      ]
+    }
+  }
+]

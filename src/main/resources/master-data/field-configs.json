@@ -1,0 +1,192 @@
+[
+  {
+    "id": "PK67CSH5",
+    "name": "fld_cfg_placeholder",
+    "type": "string",
+    "defaultValue": "",
+    "applicableTo": null
+  },
+  {
+    "id": "1B9IE0C1",
+    "name": "fld_cfg_minLength",
+    "type": "number",
+    "defaultValue": 0,
+    "applicableTo": null
+  },
+  {
+    "id": "XGJLNS62",
+    "name": "fld_cfg_maxLength",
+    "type": "number",
+    "defaultValue": 255,
+    "applicableTo": null
+  },
+  {
+    "id": "PDC0CM3Z",
+    "name": "fld_cfg_defaultValue",
+    "type": "string",
+    "defaultValue": "",
+    "applicableTo": null
+  },
+  {
+    "id": "8UXGX4YJ",
+    "name": "fld_cfg_repeatable",
+    "type": "boolean",
+    "defaultValue": false,
+    "applicableTo": null
+  },
+  {
+    "id": "IITIESBO",
+    "name": "fld_cfg_options",
+    "type": "array",
+    "defaultValue": [],
+    "applicableTo": null
+  },
+  {
+    "id": "DCBLX7NE",
+    "name": "fld_cfg_multiselect",
+    "type": "boolean",
+    "defaultValue": false,
+    "applicableTo": null
+  },
+  {
+    "id": "LZQ81IND",
+    "name": "fld_cfg_countryMapping",
+    "type": "boolean",
+    "defaultValue": false,
+    "applicableTo": null
+  },
+  {
+    "id": "P1VSD8KQ",
+    "name": "fld_cfg_requiredConditional",
+    "type": "boolean",
+    "defaultValue": false,
+    "applicableTo": null
+  },
+  {
+    "id": "N24TSXL2",
+    "name": "fld_cfg_ui_icon",
+    "type": "string",
+    "defaultValue": "",
+    "applicableTo": null
+  },
+  {
+    "id": "U8JIYGAY",
+    "name": "fld_cfg_ui_orientation",
+    "type": "string",
+    "defaultValue": "vertical",
+    "applicableTo": null
+  },
+  {
+    "id": "ENZCOI4B",
+    "name": "fld_cfg_ui_group",
+    "type": "string",
+    "defaultValue": "",
+    "applicableTo": null
+  },
+  {
+    "id": "DKNR4T2M",
+    "name": "fld_cfg_ui_order",
+    "type": "number",
+    "defaultValue": 0,
+    "applicableTo": null
+  },
+  {
+    "id": "4GVN7A9D",
+    "name": "fld_cfg_button_style",
+    "type": "string",
+    "defaultValue": "primary",
+    "applicableTo": [
+      "button"
+    ]
+  },
+  {
+    "id": "T3I1RWET",
+    "name": "fld_cfg_action",
+    "type": "string",
+    "defaultValue": "",
+    "applicableTo": [
+      "button"
+    ]
+  },
+  {
+    "id": "8UKW1KFM",
+    "name": "fld_cfg_otp_digits",
+    "type": "number",
+    "defaultValue": 6,
+    "applicableTo": [
+      "otp-field"
+    ]
+  },
+  {
+    "id": "VU5ZAMSV",
+    "name": "fld_cfg_indicator",
+    "type": "string",
+    "defaultValue": "INSIDE",
+    "applicableTo": [
+      "carousal"
+    ],
+    "options": ["INSIDE", "OUTSIDE"]
+  },
+  {
+    "id": "6M8LXU0F",
+    "name": "fld_cfg_indicator_color_selected",
+    "type": "color",
+    "defaultValue": "#FFFFFF",
+    "applicableTo": [
+      "carousal"
+    ]
+  },
+  {
+    "id": "R8MDZA8C",
+    "name": "fld_cfg_indicator_color_unselected",
+    "type": "color",
+    "defaultValue": "#919191",
+    "applicableTo": [
+      "carousal"
+    ]
+  },
+  {
+    "id": "L1CGN94L",
+    "name": "fld_cfg_description",
+    "type": "string",
+    "defaultValue": "",
+    "applicableTo": [
+      "icon-button"
+    ],
+    "options": null
+  },
+  {
+    "id": "CJ1C8JWH",
+    "name": "fld_cfg_text_style",
+    "defaultValue": "labelSmall",
+    "applicableTo": [
+      "input", "Number", "Button", "Textarea"
+    ],
+    "options": [
+      "displayLarge",
+      "displayMedium",
+      "displaySmall",
+      "headlineLarge",
+      "headlineMedium",
+      "headlineSmall",
+      "titleLarge",
+      "titleMedium",
+      "titleSmall",
+      "bodyLarge",
+      "bodyMedium",
+      "bodySmall",
+      "labelLarge",
+      "labelMedium",
+      "labelSmall"
+    ]
+  },
+  {
+    "id": "L545YMZB",
+    "name": "fld_cfg_items",
+    "type": "custom-array",
+    "defaultValue": [],
+    "applicableTo": [
+      "horizontal-scroll"
+    ]
+  }
+]

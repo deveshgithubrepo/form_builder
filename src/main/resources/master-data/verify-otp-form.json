@@ -1,0 +1,28 @@
+{
+  "id": "VEROTP01",
+  "name": "Verify OTP Form",
+  "description": "Form for OTP verification",
+  "matrix": [
+    {
+      "row": 1,
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "RV92LJZN",
+          "key": "otpCode",
+          "width": 12
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "GEH7QH3J",
+          "width": 12
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "SIGNIN01",
+  "name": "Sign In Form",
+  "description": "Form for user login using Phone or Email with OTP",
+  "matrix": [
+    {
+      "row": 1,
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "YA10TYNO",
+          "key": "signInOption",
+          "width": 12
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "VHPLZNPW",
+          "key": "phoneNumber",
+          "width": 12
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "VHPLNM12",
+          "key": "email",
+          "width": 12
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "columns": [
+        {
+          "col": 1,
+          "fieldInstanceId": "YA10TYNO",
+          "width": 12
+        }
+      ]
+    }
+  ]
+}
